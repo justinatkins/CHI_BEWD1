@@ -1,0 +1,24 @@
+##
+# BEWD1 Ignored Files
+# ===================
+# This is where we define which files
+# we don't want Git to track for us.
+# A good rule of thumb is to add editor
+# preference files, configuration files, 
+# build artifacts, and system files to the
+# list of ignored files.
+#
+# Why? Because anyone else who clones your
+# repository doesn't need to also download
+# your editor's project file or hidden system
+# files that you might not know are there. You
+# also don't want to store files and folders
+# that are generated as part of a build process
+# because those should be reproduceable using
+# a build command. No need to track easily duplicated
+# files and folders.
+##
+
+
+.DS_Store
+.sublime*

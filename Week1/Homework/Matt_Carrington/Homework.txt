@@ -1,0 +1,9 @@
+Hello!
+
+Today in the BEWD course from General Assembly my instructor Bill taught me a few basics to start off.
+
+We started off with a description of the web application stack and a few tips on programming etiquette. We then moved on to some terminal (CLI) basics. After some terminal terminology we continued on with Git and GitHub. We learned some commands and the basic workflow to stage, commit, and push localized work to the remote repository on GitHub that we created.
+
+Overall it has been a fun and interesting first class.
+
+Matt Carrington

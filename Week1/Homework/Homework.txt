@@ -1,0 +1,2 @@
+Day 1 
+Today's lesson introduced us to the basics of command lines, git functions and how they work with GitHub.  It was enlightening to see all of these demonstrated and helped clear up a bit of the confusion I previously had.  It was also nice to meet everyone and see hear the goals everyone hopes to achieve through this course.

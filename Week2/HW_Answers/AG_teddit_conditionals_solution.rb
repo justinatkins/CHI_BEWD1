@@ -33,9 +33,7 @@ def add_story(storyDict, category, story)
 	# If we have seen the story before, increase the upvotes accordingly
 	for item in storyDict[category]
 		if item[0] == story
-			puts "Item 1 = #{item[1]}"
 			item[1] = upvote(item[1], category)
-			puts "New score #{item[1]}"
 			existing = 1
 			result = ["Existing Story", item[1]]
 			break
@@ -56,9 +54,7 @@ end
 # Method that calulates upvotes based on category
 def upvote(current, category)
 	if category.capitalize == "Cats"
-		puts "current in: #{current}"
 		current = current * 5
-		puts "\nNew score in upvote: #{current}!"
 	elsif category.capitalize == "Bacon"
 		current = current * 8
 	elsif category.capitalize == "Food"

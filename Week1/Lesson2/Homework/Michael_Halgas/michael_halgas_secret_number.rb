@@ -62,7 +62,7 @@ def get_try(try, number, name)
 	elsif try == 2
 		puts "You have 1 attempt remaining, #{name}"
 	else try == 3
-		puts "Game over, player. The secret number is #{number}"
+		puts "Game over, #{name}. The secret number is #{number}"
 	end
 end
 
@@ -83,7 +83,7 @@ def calc_response(secret_number, guess, name, try)
 	elsif secret_number < guess
 		puts "Too high, #{name}"
 	else secret_number == guess
-		puts "Nice job, #{name}!"
+		puts "Nice job, #{name}! You guessed the Secret Number! Try again sometime... if you dare!"
 	end
 end
 
@@ -94,7 +94,7 @@ def calc_last_guess(secret_number, last_guess, name, try)
 	elsif secret_number < last_guess
 		puts "Too high, #{name}. You have #{try} attempts remaining. The secret number was #{secret_number}."
 	else secret_number == last_guess
-		puts "Nice job, #{name}!"
+		puts "Nice job, #{name}! You guessed the Secret Number! Try again sometime... if you dare!"
 	end
 end
 

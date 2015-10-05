@@ -45,3 +45,18 @@ forecast = [
     moon_phase: 'Waning Crescent'
   }
 ]
+
+
+
+puts forecast[-1][:date] #=> 'Friday'
+
+
+
+
+# forecast.each {|weather| puts "The temp on #{weather[:date]} will be #{weather[:temp]} and #{weather[:desc]}\nMoon phase: #{weather[:moon_phase]}" }
+
+# forecast.each do |weather|
+#   puts "The temp on #{weather[:date]} will be #{weather[:temp]} and #{weather[:desc]}"
+#   puts "Moon phase: #{weather[:moon_phase]}"
+#   puts "========================="
+# end

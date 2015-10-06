@@ -123,3 +123,10 @@ end
 
 game
 
+## FEEDBACK
+# Really good work. A few things I'd change:
+# 1. Instead of using $stdin.gets you can just use plain `gets`. Its the same thing
+# 2. When the user guesses wrong there's no feedback to tell them to guess again. I 
+# almost overlooked this because I knew how it was supposed to work but when I thought
+# about it for a second I noticed. Otherwise great work, the code is great and it works
+# as expected.

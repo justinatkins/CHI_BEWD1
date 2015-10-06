@@ -45,3 +45,11 @@ forecast = [
     moon_phase: 'Waning Crescent'
   }
 ]
+
+
+
+forecast.each do |forecast|
+  forecast.each do|key, value|
+  puts "#{key} is #{value}"
+end 
+end

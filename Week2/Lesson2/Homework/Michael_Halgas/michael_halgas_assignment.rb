@@ -35,3 +35,5 @@ new_stories.each do |str|
 	puts "Content: #{str['content'] ['plain']}"
 	puts "---------------------------"
 end
+
+# Excellent work. Totally right.

@@ -37,3 +37,9 @@ new_stories.each do |story|
 	puts "Story: #{story['content']['plain']}"
 	puts "---------------------------------------------"
 end
+
+# 100% right. This might have seemed too easy since
+# I pretty much showed exactly how to do it as an example
+# but you'd be surprised. There's a lot you can get out
+# of going through the motions and typing things out
+# yourself.

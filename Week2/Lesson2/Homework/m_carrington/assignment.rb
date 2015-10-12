@@ -42,6 +42,8 @@ new_stories.each do |story|
 	puts "================================================\n\n"
 end
 
+# Also totally correct. Good work.
+
 puts "Here are the hot three stories on Mashable"
 puts "================================================\n\n"
 
